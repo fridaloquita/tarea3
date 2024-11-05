@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="391dp"
+        android:layout_height="67dp"
+        android:hint="Usuario" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/etContrasena"
+        android:layout_width="391dp"
+        android:layout_height="63dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:backgroundTint="#8B0000"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/limpiar"
+        android:backgroundTint="#8B0000"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
